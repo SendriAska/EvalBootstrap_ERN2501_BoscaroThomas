@@ -6,6 +6,12 @@
 
 // // 2. Include any default variable overrides here
 
+$enable-negative-margins: true;
+$primary :  #ffa705;
+$secondary : #dfe3e7;
+
+
+
 // // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 // @import "../node_modules/bootstrap/scss/variables";
 // @import "../node_modules/bootstrap/scss/variables-dark";
@@ -75,6 +81,13 @@
 
 // // 8. Add additional custom code here
 
+.row {
+    justify-content: center;
+}
+
+#mainTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 
 // Même en essayant de tout important à la main, comme visible en commentaire, certaines fonctionnalités demandées ne fonctionnent juste pas.
@@ -82,5 +95,3 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 
-
-// Ajout de cette spécificication sur CSS parce que ne fonctionne pas comme prévu sur les classes bootstrap
