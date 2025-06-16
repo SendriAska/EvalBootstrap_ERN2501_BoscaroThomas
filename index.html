@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/style.css">
+</head>
+
+<body>
+    <header id="header" class="container-fluid p-0">
+        <nav class="navbar navbar-expand-md ps-5 pe-5 m-0 fixed-top bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#header">
+                    <h2 class="text-light m-0" id="mainTitle">FOCUS PHTOGRAPHY</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#qui">Qui suis-je ?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#service">Mes services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#portfolio">Mon Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#contact">Me contacter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active position">
+                    <img src="./img/banner-forest-2000x800.jpg" class="d-block w-100" alt="forest">
+
+                    <!-- Je ne garde pas le caption en dessous d'une certaine taille, parce qu'il est difficile à manipuler sans que le rendu ne soit pas propre-->
+                    <div
+                        class="carousel-caption float-end col-3 d-none d-md-block position-absolute bottom-0 start-50 m-5 bg-light bg-opacity-50 w-25 sm-w-50 text-dark">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorem eveniet maiores sed.
+                            Voluptatibus ad maxime fugiat labore, dolores dolore quis sapiente harum nihil quod
+                            consequuntur sed placeat illo sit?</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/banner-mountain-2000x800.jpg" class="d-block w-100" alt="mountain">
+                    <div
+                        class="carousel-caption float-end col-3 d-none d-md-block position-absolute bottom-0 start-50 m-5 bg-light bg-opacity-75 w-25 sm-w-50 text-dark">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis tenetur assumenda corporis
+                            autem cupiditate quae voluptatem, dolorum exercitationem ea dolores debitis natus porro
+                            beatae ad earum facilis inventore rem incidunt.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/banner-town-2000x800.jpg" class="d-block w-100" alt="town">
+                    <div
+                        class="carousel-caption float-end col-3 d-none d-md-block position-absolute bottom-0 start-50 m-5 bg-light bg-opacity-75 w-25 sm-w-50 text-dark">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ab esse vitae sapiente
+                            eveniet adipisci sint repudiandae possimus accusamus debitis, optio fuga ratione facere
+                            explicabo voluptatem eius excepturi placeat quidem?</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="row container-fluid m-0 p-0 pb-5 ">
+            <div class="col-12 text-center">
+                <h2 id="qui" class="p-5">Qui suis-je ?</h2>
+            </div>
+            <div class="col-10 col-sm-5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quidem officia amet, fugiat corrupti,
+                    recusandae perferendis dolorum hic iste unde necessitatibus adipisci aliquam eaque? Minima, rem?
+                    Magnam
+                    iusto autem deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor soluta
+                    consequatur assumenda culpa error, nostrum distinctio sunt beatae quam eveniet expedita nisi
+                    commodi,
+                    sit asperiores natus molestiae. Id, laborum. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Obcaecati quo perferendis repudiandae numquam, a voluptate voluptas ullam incidunt consequuntur, ea
+                    libero delectus assumenda dolore in iusto quia odit. Aliquid, iure!</p>
+            </div>
+            <div class="col-10 col-sm-5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quidem officia amet, fugiat corrupti,
+                    recusandae perferendis dolorum hic iste unde necessitatibus adipisci aliquam eaque? Minima, rem?
+                    Magnam
+                    iusto autem deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quas atque
+                    illum
+                    veritatis praesentium omnis voluptatum facere consectetur sapiente quae nostrum optio pariatur
+                    doloremque sequi, tempora modi, ratione qui at? Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Eaque illum deleniti commodi, similique neque architecto laborum doloremque eius ex delectus,
+                    dolores consequatur atque molestias culpa quos quis omnis. Eius, suscipit!</p>
+            </div>
+        </section>
+        <section id="sectionService" class="row bg-opacity-25 p-0 m-0 pb-5 container-fluid">
+            <div class="col-12 row ">
+                <h2 id="service" class="py-5 text-center">Mes services</h2>
+                <div class="col-sm-3 col-10">
+                    <img src="./img/milena-florent-3-71_3_219161-169718447697322.jpeg" class="w-100 pb-2" alt="mariage">
+                    <h4 class="p-2">Mariage</h4>
+                    <p class="p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea omnis maxime cum
+                        placeat, vero
+                        debitis modi doloremque laudantium quae itaque impedit eaque provident libero, blanditiis est.
+                        Animi porro odit sapiente.</p>
+                </div>
+                <div class="col-sm-3 col-10">
+                    <img src="./img/concert-rock.jpg" class="w-100 pb-2" alt="concert">
+                    <h4 class="p-2">Concert</h4>
+                    <p class="p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea omnis maxime cum
+                        placeat, vero
+                        debitis modi doloremque laudantium quae itaque impedit eaque provident libero, blanditiis est.
+                        Animi porro odit sapiente.</p>
+                </div>
+                <div class="col-sm-3 col-10">
+                    <img src="./img/pexels-leah-newhouse-50725-5091121.jpg" class="w-100 pb-2" alt="portrait">
+                    <h4 class="p-2">Portrait</h4>
+                    <p class="p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea omnis maxime cum
+                        placeat, vero
+                        debitis modi doloremque laudantium quae itaque impedit eaque provident libero, blanditiis est.
+                        Animi porro odit sapiente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="row p-0 m-0 pb-5 container-fluid">
+            <div class="col-12 row">
+                <h2 id="portfolio" class="py-3 py-sm-5 text-center">Mon Portfolio</h2>
+                <div class="col-sm-5 col-10">
+                    <img src="./img/portfolio-1-650x650.jpg" class="w-100 m-sm-0 p-1 pb-3 p-sm-0 pb-sm-3" alt="street">
+                </div>
+                <div class="col-sm-5 col-10 row">
+                    <img src="./img/portfolio-2-650x650.jpg" class="w-50 p-1 pb-3 px-sm-1 pt-sm-0" alt="flower">
+                    <img src="./img/portfolio-3-650x650.jpg" class="w-50 p-1 pb-3 px-sm-1 pt-sm-0" alt="flower">
+                    <img src="./img/portfolio-4-650x650.jpg" class="w-50 p-1 pb-3 px-sm-1 pt-sm-0" alt="flower">
+                    <img src="./img/portfolio-5-650x650.jpg" class="w-50 p-1 pb-3 px-sm-1 pt-sm-0" alt="flower">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid bg-dark p-0 py-5 text-light">
+        <div class="container-fluid row">
+            <div class="col-sm-7 col-10">
+                <h4 class="mb-4 text-uppercase" id="contact">Me contacter</h4>
+                <form>
+                    <div class="row  g-3">
+                        <div class="col-md-6">
+                            <label for="name" class="form-label">Nom Prénom</label>
+                            <input type="text" class="form-control" id="name" placeholder="Votre nom">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="votre@email.com">
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5"
+                                placeholder="Votre message..."></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-warning mt-2 col-12">Envoyer</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
